@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules", "dist", "coverage", "logs"],
+  "watch": ["src", "nodemon.json", ".env"],
+  "ext": "ts,json",
+  "delay": "1000",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "exec": "ts-node src/server.ts"
+}

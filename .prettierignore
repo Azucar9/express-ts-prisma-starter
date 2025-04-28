@@ -1,0 +1,12 @@
+dist
+coverage
+node_modules
+logs
+.git
+*.log
+.env
+.env.*
+prisma/migrations
+*.lock
+.vscode
+.idea
